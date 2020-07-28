@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+You are provided with a number, "N". Find its factorial.
+<script>
+  var N = 5//userInput[0];
+  function fact(N){
+    if(N===0 || N===1){
+         return 1;
+    }
+    else{
+        return N*fact(N-1);
+    }
+      
+  }
+ans = fact(N)
+console.log(ans)
+
+</script>
+<body>
+</html>
